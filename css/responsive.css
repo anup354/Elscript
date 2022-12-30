@@ -1,0 +1,448 @@
+@media only screen and (max-width:400px) {
+
+
+    .super-container .top-first .row .col1 .btn {
+        float: left;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .super-container .top-first .row .col1 .btn .btn-1,
+    .super-container .top-first .row .col1 .btn .btn-2 {
+        font-size: 15px;
+
+    }
+    .super-container .top-first .row .col1 .content {
+        height: 415px;
+    }
+
+}
+
+@media only screen and (max-width:950px) {
+  
+
+    .super-container .top-first .row .col1 .btn {
+        float: left;
+        display: flex;
+
+    }
+
+    .super-container .top-first .row .col1 .btn .btn-1,
+    .super-container .top-first .row .col1 .btn .btn-2 {
+        font-size: 15px;
+
+    }
+
+    .super-container .top-first .row .col1 .content {
+        text-align: center;
+    }
+
+    .super-container .top-second .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+    .super-container .top-first .row {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+
+    /* .super-container .top-first .row .col2 .top-img img {
+        width: 400px;
+        height: 267px;
+        margin-left: -60px;
+        padding-top: 25px;
+    } */
+
+
+    .super-container .third-section .row .col1 .heading {
+        font-size: 35px;
+        padding-top: 65px;
+    }
+
+    .super-container .third-section .row .col2 .row {
+        display: flex;
+        flex-direction: column;
+        padding-right: 25px;
+    }
+
+    .super-container .third-section .row {
+        display: flex;
+        margin-top: -1%;
+        justify-content: space-between;
+        flex-direction: column;
+
+
+    }
+
+    .super-container .top-second .row .col1 .content {
+        text-align: right;
+        font-size: 20px;
+        padding-right: 10px;
+        /* padding-left: 30px; */
+
+    }
+
+    .super-container .top-second .row .col1 .content-2 {
+
+        text-align: right;
+        padding-right: 10px;
+
+    }
+
+    .super-container .top-second .row .col3 .content .num,
+    .super-container .top-second .row .col4 .content .num,
+    .super-container .top-second .row .col5 .content .num {
+        /* color: white; */
+        /* font-size: 30px; */
+        text-align: center;
+
+    }
+
+    .super-container .top-second .row .col3 .content .cont,
+    .super-container .top-second .row .col4 .content .cont,
+    .super-container .top-second .row .col5 .content .cont {
+        /* color: white; */
+        font-size: 16px;
+        text-align: center;
+
+    }
+
+    .super-container .top-second .row .col2 .content,
+    .super-container .top-second .row .col3 .content,
+    .super-container .top-second .row .col4 .content,
+    .super-container .top-second .row .col5 .content {
+        padding-top: 25px;
+
+    }
+
+    .super-container .third-section {
+        padding: 0px;
+
+    }
+
+    .super-container .third-section .row .col1 {
+        /* flex: 50%; */
+        /* border: 1px solid red; */
+        padding-left: 20px;
+        /* padding-right: 30px; */
+        /* padding-top: 10px; */
+    }
+
+    .super-container .third-section .row .col2 .row .col {
+        width: 100%;
+
+        box-sizing: border-box;
+        /* margin-bottom: 5%; */
+        /* margin: 10px; */
+        background: #ededed;
+    }
+
+    .super-container .third-section .row .col2 .row .col .content .material-symbols-outlined {
+        /* padding-left: 115px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .super-container .fourth-section .row {
+        display: flex;
+        flex-direction: column;
+        margin-top: -1%;
+        justify-content: space-between;
+    }
+
+    .super-container .third-section .row .col1 .content {
+
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+    .super-container .fourth-section {
+        padding: 20px;
+        padding-right: 40px;
+    }
+
+    .super-container .fourth-section .row .cols1,
+    .super-container .fourth-section .row .cols2 {
+        width: 100%;
+    }
+
+    .super-container .package .row {
+        display: flex;
+        flex-direction: column;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+
+    .super-container .package .row .cols1,
+    .super-container .package .row .cols2,
+    .super-container .package .row .cols3 {
+        margin-bottom: 20px;
+    }
+
+    .super-container .package .heading span {
+        /* font-size: 40px; */
+        text-align: center;
+
+    }
+
+    .super-container .package .heading h3 {
+        text-align: center;
+    }
+
+    .super-container .package .heading {
+        padding-left: 20px;
+    }
+
+    .super-container .clients .row {
+        display: flex;
+        flex-direction: column;
+        padding-right: 10px;
+
+    }
+
+    .super-container .clients .row .right-content .cnt {
+        font-size: 26px;
+        padding-top: 40px;
+        padding-left: 75px;
+    }
+
+    .super-container .clients .row .right-content .content2 .line1 {
+        /* font-size: 40px; */
+        padding-left: 0px;
+    }
+
+    .super-container .clients .gallery {
+        display: flex;
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+        height: auto;
+        position: relative;
+        /* background-color: red; */
+    }
+
+    .super-container .clients .gallery .imgs .box {
+        width: 190px;
+        height: 190px;
+
+    }
+
+    .super-container .clients .gallery .imgs .box img {
+        width: 100%;
+        height: 100%;
+        filter: grayscale();
+    }
+
+    .super-container .contact .img-form .row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .super-container .contact {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 25px;
+    }
+
+    .super-container .contact .img-form .row .col2 .row {
+        display: flex;
+        flex-direction: column;
+        padding-top: 24px;
+        padding-left: 0px;
+        /* padding-right: 80px; */
+    }
+
+    .super-container .img-form .row .col2 .row .right-content .cnt {
+        /* font-size: 20px; */
+        padding-left: 0px;
+        padding-top: 25px;
+        padding-bottom: 20px;
+        text-align: right;
+
+    }
+
+    .super-container .contact .img-form .row .col2 .row .content {
+        width: 100%;
+    }
+
+    .super-container .contact .img-form .row .col2 .title {
+
+        padding-left: 0px;
+    }
+
+    .super-container .contact .img-form .row .col2 p {
+        /* font-size: 16px; */
+        padding-left: 0px;
+
+    }
+
+    .super-container .contact .img-form .row .col2 .contact-form {
+        padding-left: 0px;
+    }
+
+   
+
+    .super-container footer {
+        padding-left: 30px;
+        padding-right: 20px;
+        /* background-color: #272727; */
+        height: 2470px;
+    }
+
+    .super-container footer .row {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .super-container footer .row .col1 ul,
+    .super-container footer .row .col2 ul,
+    .super-container footer .row .col3 ul,
+    .super-container footer .row .col4 ul,
+    .super-container footer .row .col5 ul {
+        /* list-style: none; */
+        padding-left: 0px;
+    }
+
+    .super-container footer .copyright {
+        padding-top: 90px;
+    }
+
+
+}
+
+@media only screen and (max-width:500px) {
+    .super-container .top-second .row .three-col {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .super-container .clients .row .right-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .super-container .contact .row {
+        justify-content: space-between;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .super-container .contact .row .right-content .cnt {
+        text-align: center;
+
+    }
+
+    .super-container .package .row .cols1 .content .content .btn,
+    .super-container .package .row .cols2 .content .content .btn,
+    .super-container .package .row .cols3 .content .content .btn {
+        padding-left: 0px;
+        padding-top: 0px;
+        display: flex;
+    }
+}
+@media only screen and (max-width:1024) {
+    .super-container .top-first .row .col1 .content {
+        height: 350px;
+    }   
+}
+@media only screen and (max-width:1070px) {
+    
+   
+
+
+    .nav-toggler {
+        display: block;
+    }
+
+    .super-container .nav-links {
+        width: 100%;
+        padding: 0;
+        max-height: 0px;
+        overflow: hidden;
+        visibility: hidden;
+        background-color: #3cb878;
+        transition: all 0.5s ease;
+    }
+
+    .super-container .nav-links.open {
+        visibility: visible;
+    }
+
+    .super-container .nav-links ul {
+        padding: 12px 15px 0;
+        margin-top: 12px;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .super-container .nav-links ul li {
+        display: block;
+        margin: 0;
+    }
+}
+@media only screen and (max-width:1020px) {
+.nav-toggler {
+    display: block;
+}
+
+/* .super-container .navbar .row .logo img{
+    visibility: hidden;
+} */
+.super-container .nav-links {
+    width: 100%;
+    padding: 0;
+    max-height: 0px;
+    overflow: hidden;
+    visibility: hidden;
+    background-color: #3cb878;
+    transition: all 0.5s ease;
+
+}
+
+.super-container .nav-links.open {
+    visibility: visible;
+}
+
+.super-container .nav-links ul {
+    padding: 12px 15px 0;
+    margin-top: 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.super-container .nav-links ul li {
+    display: block;
+    margin: 0;
+
+}
+
+.super-container .nav-links ul li a {
+    color: #fff;
+}
+}
+
+
+
+@media only screen and (max-width:375px) {
+.fourth-section .row .cols1 .content, .super-container .fourth-section .row .cols2 .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.super-container .fourth-section .row .cols1 .content .col2 p,
+.super-container .fourth-section .row .cols2 .content .col2 p {
+    text-align: center;
+}
+.super-container .fourth-section .row .cols1 .content .col2 .heading, 
+.super-container .fourth-section .row .cols2 .content .col2 .heading {
+    text-align: center; 
+}
+}
